@@ -129,15 +129,7 @@ p{
 padding: 3% 2%;
 }
 
-@media (max-width:978px){
-    #title{
-        text-align: center;
-    }
-    .tittle-img{
-        position: static;
-     transform: rotate(0);
-    }
-}
+
 
 /*Call to Action*/
 
@@ -164,4 +156,14 @@ line-height: 1;
 
 .social-icon {
   margin: 20px 10px;
+}
+
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .tittle-img{
+        position: static;
+     transform: rotate(0);
+    }
 }
